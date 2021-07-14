@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sofia' !important;
+}
+nav {
+  padding: 1vw 12.5%;
+}
+@font-face {
+  font-family: 'Sofia';
+  src: url("Sofia Pro Regular.otf");
+}
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 12.5%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.adjust {
+  margin: 1vw 0 !important;
+  align-self: start !important;
+}
+.MuiButton-containedPrimary {
+  padding: 1vw 2vw !important;
+  border-radius: 0.5vw !important;
+  text-transform: none !important;
+  font-family: 'Sofia' !important;
+  background: #0064ff !important;
+}
